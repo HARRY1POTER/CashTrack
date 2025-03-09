@@ -10,7 +10,7 @@ This is a simple Savings Bank app which allows you to deposit and withdraw money
 - **Current Savings** : The app shows the user's current balance after each transaction.
 
 ## Technologies Used:
-
+ 
 - **HTML** : Structure of the website.
 - **CSS** : Styling for a clean, responsive design.
 - **JavaScript** : Logic for performing the deposit and withdrawal operations, and handling transaction history.

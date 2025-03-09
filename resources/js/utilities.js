@@ -8,7 +8,7 @@ document.getElementById("btnMenu").addEventListener("click", function () {
 });
 
 document.getElementById("menuOverlay").addEventListener("click", closeMenu);
-
+ 
 window.addEventListener("keydown", function (e) {
   if (e.keyCode === 27)
     // ESC key
