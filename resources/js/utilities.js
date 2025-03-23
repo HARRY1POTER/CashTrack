@@ -14,7 +14,7 @@ window.addEventListener("keydown", function (e) {
     // ESC key
     closeMenu();
 });
-
+ 
 function closeMenu() {
   var menu = document.getElementById("menu");
   var menuOverlay = document.getElementById("menuOverlay");

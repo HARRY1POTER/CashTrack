@@ -238,7 +238,7 @@ function newFeed(amount, type) {
   document.getElementById("txtSavings").innerText = savings
     .toLocaleString("hi-IN", { style: "currency", currency: "INR" })
     .split(".")[0];
-
+ 
   renderTimeLine(collect.timeline, 6); // Renders the Timeline again
   reloadCharts(deposits, withdrawals, netSavings); // Renders the Charts again
   localStorage.setItem("appCollect", JSON.stringify(collect));
