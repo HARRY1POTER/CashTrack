@@ -234,7 +234,7 @@ function newFeed(amount, type) {
   if (netSavings.length == 0)
     // Starting amount
     netSavings.push(amount);
-  
+
   document.getElementById("txtSavings").innerText = savings
     .toLocaleString("hi-IN", { style: "currency", currency: "INR" })
     .split(".")[0];
