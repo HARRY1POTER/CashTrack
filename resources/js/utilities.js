@@ -6,7 +6,7 @@ document.getElementById("btnMenu").addEventListener("click", function () {
   menuOverlay.style.opacity = "1";
   menuOverlay.style.visibility = "visible";
 });
- 
+
 document.getElementById("menuOverlay").addEventListener("click", closeMenu);
  
 window.addEventListener("keydown", function (e) {
